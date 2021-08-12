@@ -1,0 +1,73 @@
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    background-image: url("../image/bimage.jpg");
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;  
+}
+
+
+.manual-header{
+    display: table;
+}
+
+.column-action{
+    float: right;
+    margin-right: 20px;
+}
+
+.container{
+    margin-top: 60px;
+    padding: 0px;
+}
+
+
+#body1{
+    background-color: rgba(0, 0, 0, 0.608);
+    width: auto;
+    height: 150px;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+#logo{
+    width: 100px;
+    height: 100px;
+    margin: 20px 20px 20px 20px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.top{
+    margin-right: 20px;
+    margin-top: 110px;
+    padding-bottom: 0px;
+    
+    text-align: center;
+    
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+}
+
+.main-heading{
+    color: cornsilk;
+    display: inline-block;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 63px;
+}
